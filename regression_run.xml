@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Automation Tests Suite" verbose="10">
+    <test  name="UI Tests" verbose="10">
+
+        <packages>
+            <package name=".*"></package>
+        </packages>
+
+    </test>
+</suite>

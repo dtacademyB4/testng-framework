@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Headless Test" verbose="10">
+
+    <test  name="Headless Chrome">
+        <parameter name="browser" value="headlessChrome"></parameter>
+        <packages>
+            <package name=".*"></package>
+        </packages>
+    </test>
+
+    <test  name="Headless Firefox">
+        <parameter name="browser" value="headlessFirefox"></parameter>
+        <packages>
+            <package name=".*"></package>
+        </packages>
+    </test>
+
+
+</suite>
